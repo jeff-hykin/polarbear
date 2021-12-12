@@ -1,6 +1,6 @@
 {
     "license": "MIT",
-    "name": "polarbear",
+    "name": "@!!!!!/polarbear",
     "description": "A fork of dataframe-js",
     "version": "1.0.0",
     "repository": {
@@ -25,6 +25,10 @@
         "fs": false
     },
     "main": "./lib/index.js",
+    "exports": {
+        "import": "./dist/dataframe.mjs",
+        "require": "./dist/dataframe.min.js"
+    },
     "scripts": {
         "lint": "check-node-version --node \">= 4\" && eslint -c .eslintrc ./src || check-node-version --node \"< 4\"",
         "prettier": "prettier --write 'src/**/*'",
