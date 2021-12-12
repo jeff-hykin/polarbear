@@ -2,7 +2,7 @@
     "license": "MIT",
     "name": "@!!!!!/polarbear",
     "description": "A fork of dataframe-js",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jeff-hykin/polarbear.git"
