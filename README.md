@@ -1,4 +1,19 @@
-# dataframe-js
+# PolarBear JS
+
+This is a simple fork of DataFrame-JS that allows using dataframes without NPM!
+
+<br>
+In any modern browser or inside Deno, just run the following:
+
+```js
+const { DataFrame } = (await import('https://cdn.skypack.dev/@!!!!!/polarbear@1.0.2')).default
+const rowsOfData = [ [1,2,3,3], [4,5,6,7] ]
+const columnNames = ['a','b','c','d']
+const df = new DataFrame(rowsOfData, columnNames)
+```
+
+
+# dataframe-js info
 
 ![](https://travis-ci.org/Gmousse/dataframe-js.svg?branch=develop)
 ![](https://coveralls.io/repos/github/Gmousse/dataframe-js/badge.svg?branch=master)
