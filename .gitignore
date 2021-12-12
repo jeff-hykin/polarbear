@@ -1,7 +1,15 @@
 # 
 # Custom
 # 
-
+*.log*
+logs
+node_modules
+.nyc_output
+*lock*
+coverage
+report*.txt
+.vscode
+.tsbuild
 
 # 
 # standard
